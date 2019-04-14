@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    The difference is that responsive websites incorporate responsive elements, like percentages for width and rem for font size, so they are tailored to each user's pre-existing preferences and accessibility needs whereas adaptive websites are more rigid, with tiered levels for specific devices or device categories.  Adaptive sites are cheaper and quicker to build, but responsive designs accommodate thousands of different devices at all screen resolutions.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    To be mobile first means incorporating designing the base site to be the one that displays for mobile, then using CSS (specifically media queries and min-widths) to change the website's appearance as it scales to desktop designs.  Desktop first is that in reverse, the first page that all the later styles overwrite is designed for desktop viewing.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    This code sets the size of 1rem to 10 px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    I would describe preprocessing as an development tool that handles all your CSS specificity for you, and makes coding feel a lot more natural.  
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I really like most how parametric mixins work, and the import command.  Code always seems to get dense as websites grow, and splitting the index.less/index.css into chunks for each different portion of the website and importing it all, in the end, is super helpful, because for me at least, it makes coding a lot more organized, and therefore better.  Likewise, with parametric mixins, move the code for display flexing and centering content, etc into a relevantly-named parametric mixin and there is less code on the page, and therefore it metaphorically reduces the background noise for me and lets me focus more on the relevant code in front of me.
+
+    The concept that gives me the most trouble is the media queries because they are still so new to me.  I don't really know why they are going wrong when something is wrong but in the end, I have always been able to fix what is the issue.   
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
