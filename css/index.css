@@ -160,6 +160,41 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+body header {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+body header .headerTOP {
+  text-align: center;
+}
+body header h1 {
+  font-size: 4rem;
+  padding: 1.5rem;
+}
+body header nav {
+  padding: 1rem;
+}
+body header nav a {
+  padding: 3%;
+  font-size: 2rem;
+}
+body header a:link {
+  text-decoration: none;
+  color: #454A59;
+}
+body header a:visited {
+  text-decoration: none;
+  color: #454A59;
+}
+body header a:hover {
+  text-decoration: underline;
+  color: #454A59;
+}
+body header a:active {
+  text-decoration: underline;
+  color: #454A59;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
