@@ -1,9 +1,13 @@
 // Navigation code here
 
 body header {
-    .containerize(800px, 100%);
+    .containerize(100%, 0);        
+
     .headerTOP {
         text-align:center;
+        background-color: @nav-bg;
+        border-bottom:1px solid @nav-border;
+
     }
 
 
@@ -16,7 +20,7 @@ body header {
         padding:1rem;
         
         a {
-        padding:3%;
+        padding:1.5rem;
         font-size:2rem;
         }
     }    
