@@ -1,1 +1,52 @@
 // Navigation code here
+
+body header {
+    .containerize(100%, 0);        
+
+    .headerTOP {
+        text-align:center;
+        background-color: @nav-bg;
+        border-bottom:1px solid @nav-border;
+
+    }
+
+
+    h1 {
+        font-size:4rem;
+        padding:1.5rem;
+    }
+
+    nav {
+        padding:1rem;
+        
+        a {
+        padding:1.5rem;
+        font-size:2rem;
+
+        @media @mobile {
+            font-size:1.6rem;
+        }
+        }
+    }    
+
+    a:link {
+        text-decoration:none;
+        color:@river-bend;
+    }
+
+    a:visited {
+        text-decoration:none;
+        color:@river-bend;
+    }
+
+    a:hover {
+        text-decoration:underline;
+        color:@river-bend;
+    }
+
+    a:active {
+        text-decoration: underline;
+        color:@river-bend;
+    }
+    
+}

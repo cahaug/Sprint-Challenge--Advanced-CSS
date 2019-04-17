@@ -1,4 +1,5 @@
 // Variables
+@mobile: ~'(max-width:500px)';
 
 // Color pointers
 @nav-bg: @wild-sand;
@@ -24,3 +25,29 @@
 @border-real: #dee2e6;
 
 // Mobile var
+
+@media @mobile {
+    body .home .main-header {
+        max-width:@mobile;
+        width:100%;
+    }
+    body header nav a {
+        padding:.5rem;
+    }
+    body .home .space-images {
+        .sky {
+            .displayNone();
+        }
+        .launch {
+            .displayNone();
+        }
+    }
+    body .home .walk {
+        flex-direction: column-reverse;
+        margin:2rem;
+        padding:30px 0;
+    }
+    body .home .walk .walk-img {
+        padding-bottom:1rem;
+    }
+}

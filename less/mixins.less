@@ -1,1 +1,24 @@
 // Mixins Here
+
+.containerize(@wp, @margin){
+    width: @wp;
+    margin: @margin auto;
+}
+
+.buttonizer(@w, @fs){
+    width:@w;
+    font-size:@fs;
+    text-align:center;
+    background-color: @btn-bg-color;
+    border-radius: 10px;
+    padding:15px;
+    color:@porcelain;
+}
+
+.displayNone(){
+    display:none;
+}
+
+.maxWidth(){
+    width:100%;
+}
